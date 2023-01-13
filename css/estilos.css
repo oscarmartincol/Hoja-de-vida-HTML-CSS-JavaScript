@@ -1,0 +1,57 @@
+body {
+    
+    width: 1024px;
+    background-color: #566D7E;
+    margin: 0px auto;
+    
+}
+
+header {
+   margin: 0px auto; 
+   background-color: #34282C;
+}
+
+div{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Foto{
+    width: 170px;
+    border: 10px solid #437C17;
+    box-shadow: 0px 0px 20px blue ;
+
+}
+.nombre{
+    color: #F3E5AB;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+hr{
+    border-width: 4px;
+    border-style: dotted;
+    border-color: antiquewhite;
+    width: 90%;
+}
+
+nav{
+    margin: 0px auto;
+}
+
+.menu{
+    height: 40px;
+    width: 60px;
+}
+
+button{
+    text-align: center;
+    margin-right: -5px;
+    width: 16.7%;
+    border: 4px solid black;
+}
+p{
+    margin: 0px;
+}
