@@ -51,7 +51,63 @@ button{
     margin-right: -5px;
     width: 16.7%;
     border: 4px solid black;
+    cursor: pointer;
 }
 p{
     margin: 0px;
+     
+}
+a .info{
+    color: #F3E5AB;
+    background-image: linear-gradient(to right, #728FCE 50%, #CFECEC 50%); 
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease;
+}
+a .experiencia{
+    color: #F3E5AB;
+    background-image: linear-gradient(to right, #AF7817 50%, #CFECEC 50%); 
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease;
+}
+
+a .refPersonales{
+    color: #F3E5AB;
+    background-image: linear-gradient(to right, #C11B17 50%, #CFECEC 50%); 
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease;
+}
+a .refFamiliares{
+    color: #F3E5AB;
+    background-image: linear-gradient(to right, #7E354D 50%, #CFECEC 50%); 
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease;
+}
+a .estudios{
+    color: #F3E5AB;
+    background-image: linear-gradient(to right, #4E387E 50%, #CFECEC 50%); 
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease;
+}
+a .descarga{
+    color: #F3E5AB;
+    background-image: linear-gradient(to right, #6AA121 50%, #CFECEC 50%); 
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: left;
+    transition: background-position .3s ease;
+}
+
+a .info:hover, .experiencia:hover, .refPersonales:hover, .refFamiliares:hover, .estudios:hover, .descarga:hover{
+    background-position: right;
+    color: black;
 }
