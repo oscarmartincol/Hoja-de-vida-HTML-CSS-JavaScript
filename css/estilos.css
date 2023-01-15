@@ -52,6 +52,7 @@ button{
     width: 16.7%;
     border: 4px solid black;
     cursor: pointer;
+    font-weight: bold;
 }
 p{
     margin: 0px;
@@ -110,4 +111,24 @@ a .descarga{
 a .info:hover, .experiencia:hover, .refPersonales:hover, .refFamiliares:hover, .estudios:hover, .descarga:hover{
     background-position: right;
     color: black;
+}
+main{
+    margin: 0px auto;
+    text-align: center;
+    background-color: #EDE275;
+    display: flex;
+    flex-direction: column;
+}
+.informacion{
+    margin-left: 0px auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+table{
+    margin-left: 15px;
+}
+.datos {
+    height: 30px;
+    width: 30px;
 }
