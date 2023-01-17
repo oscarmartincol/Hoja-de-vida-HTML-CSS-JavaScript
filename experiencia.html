@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiencia laboral</title>
     <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+    <script src="js/temas.js"></script>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="header">
 
         <div>
             <img class="Foto" src="images/Foto3x4 (1).jpg" alt="Foto de Oscar"/>
-            <div class="nombre">
+            <div class="nombre" id="nombre">
                 <h1>Oscar David Martinez Benavides</h1>
-                <hr>
+                <hr id="division">
                 <h2>Ingeniero electrónico, actualmente tengo conocimientos en lenguajes de programación Java, C, Python 
                     y con la plataforma Matlab. 
                 </h2>
@@ -63,15 +64,27 @@
                     <p>Descargar CV</p>
                 </button>
             </a>
+            <span class="fondo">
+                <label for="selector">
+                    <img src="images/picture.png"/>
+                </label>
+                <select  name="fondo" class="selector" id="selector" onchange="cambiarFondo(this)">
+                    <img src="images/picture.png"/>
+                    <option value="tema1">Charcoal, Harvest gold & Marble blue</option>
+                    <option value="tema2">Blue whale, Dark forest green & Black </option>
+                    <option value="tema3">Taupe, Beige & Cyan</option>
+                    <option value="tema4">Aquamarine, Plum velvet & Purple iris</option>
+                </select>
+            </span>
 
         </nav>
     </header>
 
-    <main>
-        <h1>Experiencia laboral</h1>
-        <div class="informacion">
+    <main id="main">
+        <h1 id="titulo">Experiencia laboral</h1>
+        <div class="informacion" id="contenido">
 
-            <div class="columna">
+            <div class="columna" id="vertical" >
                 <h2>Minimercado Blanca</h2>
                 <h3>Administrador de minimercado</h3>
                 <p>Julio de 2015 - presente</p>
@@ -96,7 +109,7 @@
                 </ul>
             </div>
 
-            <div class="columna">
+            <div class="columna" id="vertical1">
                 <h2>Avianca</h2>
                 <h3>Auxiliar de operaciones terrestres</h3>
                 <p>Diciembre de 2013 - Noviembre de 2014</p>

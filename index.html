@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Información principal</title>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+    <script src="js/temas.js"></script>
 </head>
-<body>
-    <header>
+<body id="body">
+    
+    <header id="header">
 
         <div>
-            <img class="Foto" src="images/Foto3x4 (1).jpg" alt="Foto de Oscar"/>
-            <div class="nombre">
+            <img class="Foto" id= "foto" src="images/Foto3x4 (1).jpg" alt="Foto de Oscar"/>
+            <div class="nombre" id="nombre">
                 <h1>Oscar David Martinez Benavides</h1>
                 <hr>
                 <h2>Ingeniero electrónico, actualmente tengo conocimientos en lenguajes de programación Java, C, Python 
                     y con la plataforma Matlab. 
-                </h2>
-                
+                </h2>              
             </div>
         </div>
+        
 
         <nav>
             <a href="index.html">
@@ -63,13 +66,25 @@
                     <p>Descargar CV</p>
                 </button>
             </a>
-
+            <span class="fondo">
+                <label for="selector">
+                    <img src="images/picture.png"/>
+                </label>
+                <select  name="fondo" class="selector" id="selector" onchange="cambiarFondo(this)">
+                    <img src="images/picture.png"/>
+                    <option value="tema1">Charcoal, Harvest gold & Marble blue</option>
+                    <option value="tema2">Blue whale, Dark forest green & Black </option>
+                    <option value="tema3">Taupe, Beige & Cyan</option>
+                    <option value="tema4">Aquamarine, Plum velvet & Purple iris</option>
+                </select>
+            </span>
+            
         </nav>
     </header>
 
-        <main>
-            <h1>Información personal</h1>
-            <div class="informacion">
+        <main id="main">
+            <h1 id="titulo" class="informacion">Información personal</h1>
+            <div id= "contenido" class="informacion">
                 <table>
                     <tr>
                         <td><img class="datos" src="images/nombre.png" ></td>

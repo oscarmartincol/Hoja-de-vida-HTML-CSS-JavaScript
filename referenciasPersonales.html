@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Referencias personales</title>
     <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+    <script src="js/temas.js"></script>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="header">
 
         <div>
             <img class="Foto" src="images/Foto3x4 (1).jpg" alt="Foto de Oscar"/>
-            <div class="nombre">
+            <div class="nombre" id="nombre">
                 <h1>Oscar David Martinez Benavides</h1>
-                <hr>
+                <hr id="division">
                 <h2>Ingeniero electrónico, actualmente tengo conocimientos en lenguajes de programación Java, C, Python 
                     y con la plataforma Matlab. 
                 </h2>
@@ -63,14 +64,25 @@
                     <p>Descargar CV</p>
                 </button>
             </a>
-
+            <span class="fondo">
+                <label for="selector">
+                    <img src="images/picture.png"/>
+                </label>
+                <select  name="fondo" class="selector" id="selector" onchange="cambiarFondo(this)">
+                    <img src="images/picture.png"/>
+                    <option value="tema1">Charcoal, Harvest gold & Marble blue</option>
+                    <option value="tema2">Blue whale, Dark forest green & Black </option>
+                    <option value="tema3">Taupe, Beige & Cyan</option>
+                    <option value="tema4">Aquamarine, Plum velvet & Purple iris</option>
+                </select>
+            </span>
         </nav>
     </header>
 
-    <main>
-        <h1>Referencias personales</h1>
-        <div class="contactos">
-            <div class="columna">
+    <main id="main">
+        <h1 id="titulo">Referencias personales</h1>
+        <div class="contactos" id="contenido">
+            <div class="columna" id="vertical">
                 <h2>Diego Ortiz</h2>
                 <ul>
                     <li><h4>Profesión: Ingeniero industrial</h4></li>
@@ -78,7 +90,7 @@
                 </ul>
             </div>
 
-            <div class="columna">
+            <div class="columna" id="vertical1">
                 <h2>Marcos Angulo</h2>
                 <ul>
                     <li><h4>Profesión: Ingeniero electrónico</h4></li>
@@ -86,7 +98,7 @@
                 </ul>
             </div>
 
-            <div class="columna">
+            <div class="columna" id="vertical">
                 <h2>David Mosquera</h2>
                 <ul>
                     <li><h4>Profesión: Ingeniero electrónico</h4></li>
