@@ -3,7 +3,6 @@ body {
     width: 1024px;
     background-color: #566D7E;
     margin: 0px auto;
-    
 }
 option{
     border: 4px solid;
@@ -92,6 +91,9 @@ label img{
     height: 40px;
     width: 60px;
 }
+nav{
+    height: 70px;
+}
 
 button{
     text-align: center;
@@ -112,6 +114,7 @@ a .info{
     background-repeat: no-repeat;
     background-position: left;
     transition: background-position .3s ease;
+    
 }
 a .experiencia{
     color: #F3E5AB;
@@ -206,4 +209,41 @@ table{
     padding-right: 5%;
     padding-left: 5%;
     border-right: 2px dotted #493D26 ;
+}
+.acordeon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 270px;
+    padding-bottom: 50px;
+    border: dotted 2px black;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.acordeon a{
+    padding: 15px;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+.escala{
+    height: 30px;
+    overflow: hidden;
+}
+i{
+    margin-right: 10px;
+}
+.fa-chevron-down {
+    transition: 0.3s;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+.info{
+    padding: 20px;
 }
